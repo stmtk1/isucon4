@@ -26,8 +26,6 @@ benchmarker: deps user/dummy_users.go
 	@echo "--> Installing build dependencies"
 	go install github.com/urfave/cli
 	go install github.com/moovweb/gokogiri
-	gondler install
-	touch .gondler
 
 deps: Gomfile ./.gondler
 
